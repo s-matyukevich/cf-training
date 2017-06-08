@@ -1,0 +1,11 @@
+---
+id: install_cloud_foundry
+title: Install Cloud Foundry
+description: Follow the steps to install your own, full-fledged Cloud Foundry PaaS, using BOSH.
+steps:
+- id: introduction
+  title: Introduction
+- id: install
+  title: Install
+- id: verify_deployment
+  title: Verify deployment

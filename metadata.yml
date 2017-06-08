@@ -1,0 +1,14 @@
+title: CF For Dev Ops
+price: 21.5
+description: Learn how to efficiently manage Cloud Foundry users and resources,
+  ensure that your deployments are secure, and create your own buildpacks and service
+  brokers.
+labels:
+  for: devops
+  product: "Cloud Foundry"
+lessons:
+  - install_cloud_foundry
+  - cf_components_blobstore
+  - cf_components_consul
+iaas_provider: amazon
+instance_flavour: m3.xlarge

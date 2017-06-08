@@ -1,0 +1,18 @@
+---
+id: cf_components_blobstore
+title: 'CF components breakdown: Blobstore'
+description: Blobstore.
+steps:
+- id: introduction
+  title: Introduction
+- id: what_is_blobstore
+  title: What is the Blobstore
+- id: try_api
+  title: Try the Blobstore API
+- id: use_external_blobstore1
+  title: Use external Blobstore (Part 1)
+- id: use_external_blobstore2
+  title: Use external Blobstore (Part 2)
+- id: cleanup
+  title: Cleanup
+

@@ -1,0 +1,13 @@
+---
+id: cf_components_consul
+title: 'CF components breakdown: Consul'
+description: Consul.
+steps:
+- id: introduction
+  title: Introduction
+- id: service_discovery
+  title: Consul as a service discovery tool
+- id: distributed_locks
+  title: Using consul for obtaining distributed locks
+- id: cleanup
+  title: Cleanup
