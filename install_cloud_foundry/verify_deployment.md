@@ -1,11 +1,11 @@
-## Verify deployment
+### Verify deployment
 
-### 1. To verify your Cloud Foundry deployment, run smoke tests:
+#### 1. To verify your Cloud Foundry deployment, run smoke tests:
 ``` 
 bosh run-errand smoke-tests
 ```
 
-### 2. Login to Cloud Foundry to see that your deployment is successfully working:
+#### 2. Login to Cloud Foundry to see that your deployment is successfully working:
 ```
 cf login --skip-ssl-validation -a  https://api.bosh-lite.com -u admin -p {{ cat ~/cf-deployment/deployment-vars.yml | grep uaa_scim_users_admin_password | awk '{print $2}'  }}
 ```
