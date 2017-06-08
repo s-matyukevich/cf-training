@@ -3,7 +3,7 @@
 With new BOSH 2.0 features the process of Cloud Foundry installation becomes extremly easy. you need to do the following steps:
 
 1. Install git
-  ``` exec
+  ``` 
   sudo apt-get update
   sudo apt-get install -y git
   ```
