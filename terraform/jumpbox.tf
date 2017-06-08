@@ -138,6 +138,11 @@ resource "aws_instance" "training_jumpbox" {
     associate_public_ip_address = true
     source_dest_check = false
 
+    root_block_device {
+        volume_size =  "100"
+        volume_type = "gp2"
+    }
+
     tags {
         Name = "jumpbox_${var.name_tag}"
         Owner = "${var.owner_tag}"
